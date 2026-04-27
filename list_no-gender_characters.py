@@ -4,4 +4,6 @@ genders = ['-']
 
 filtered_df = df_heroes[df_heroes['Gender'].isin(genders)]
 
-print(filtered_df[["name", "Publisher"]])
+filtered_df[["name", "Publisher"]]
+
+print(f"There are {filtered_df.shape[0]} superheroes with no gender listed.")
