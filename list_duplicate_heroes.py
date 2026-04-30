@@ -1,3 +1,3 @@
-from load_data import df_heroes
+from clean_data import df_heroes_clean
 
-print(df_heroes[df_heroes.duplicated(['name'])])
+print(df_heroes_clean[df_heroes_clean.duplicated(['name'])])
