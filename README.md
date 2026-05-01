@@ -35,3 +35,9 @@ Looking at the list of these heroes, I saw some familiar names, including Spider
 ![Characters in dataset with duplicate names](images/duplicate_heroes.png)
 
 There are many familiar names in this list, including Batman and Spider-Man. Captain Marvel (DC Comics) is listed, which, for me, raises the question of "Is this listed as a duplicate of a Marvel Captain Marvel?" Let's see:
+
+![Characters in dataset named Captain Marvel](images/captain_marvel.png)
+
+The other Captain Marvel in this dataset is Carol Danvers.
+
+Considering that there are quite a few characters with duplicated names, and that this dataset does not include secret identities, this dataset is not suited to what I want to analyze and I will stop for now.
